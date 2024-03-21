@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #14182B; /* Dark blue-violet */
+}
+
+.app {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #1E2139; /* Dark violet */
+  color: #fff; /* White text */
+}
+
+.todo-list {
+  margin-top: 20px;
+}
+
+.todo-row {
+  background-color: #2B314D; /* Dark blue */
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-row:hover {
+  background-color: #3E466C; /* Dark blue-violet */
+}
+
+.todo-row.complete {
+  text-decoration: line-through;
+}
+
+.todo-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.todo-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.todo-button:hover {
+  background-color: #0056b3;
+}
+
+.icons button {
+  margin-left: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.icons button:hover {
+  background-color: #0056b3;
+}
